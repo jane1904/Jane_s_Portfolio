@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap');
+
+.font-j1
+{  
+	font-family: "Outfit", serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+.font-bj1
+{  
+	font-family: "Outfit", serif;
+  	font-weight: 200;
+  	font-style: normal;
+}
+.font-j2
+{  
+	font-family: "DM Sans", serif;
+  	font-weight: 200;
+  	font-style: normal;
+}
+.text-color
+{
+	color: #AFAEAE
+}
+.header-color
+{
+	color: #D2D0D0
+}
+.text-c1
+{
+	color: #22c1c3
+}
+.text-c2
+{
+	color: #fdbb2d;
+}
+.img-70{ width: 70%; height: auto}
+.box-welcome
+{
+	margin: 20px 0px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #fdbb2d
+}
+
+.button1 {
+  background-color: black; 
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 1px 4px;
+}
+
+.button1:hover {
+  border: none;
+  background-color: #1769ff;
+  color: white;
+}
+
+.button2 {
+  background-color: black; 
+  color: #ffff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+
+.button2:hover {
+  border: none;
+  background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+  color: white;
+}
+.button3 {
+  background-color: black; 
+  color: #ffff; 
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 1px 5px;
+}
+
+.button3:hover {
+  border: none;
+  background-color: #1da1f2;
+  color: white;
+}
+.buttonn {
+  background: #000;
+  border: none;
+  padding: 0px;
+  display: inline-block;
+  margin: 6px 6px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 
+}
+.button1a { 
+  color: #fdbb2d; 
+  /*border: 1px solid #fff;*/
+  border-radius: 8px;
+  padding: 0px 1px 1px 2px;
+}
+
+.button1a:hover {
+  background-color: #fdbb2d;
+  color: white;
+}
+.button1b { 
+  color: #fdbb2d; 
+  /*border: 2px solid #fff;*/
+  border-radius: 8px;
+  padding: 2px 2px 0px 2px;
+}
+
+.button1b:hover {
+  background-color: #fdbb2d;
+  color: white;
+}
+.button1c { 
+  color: #fdbb2d; 
+  /*border: 2px solid #fff;*/
+  border-radius: 8px;
+  padding: 2px 1px 0px 2px;
+}
+
+.button1c:hover {
+  background-color: #fdbb2d;
+  color: white;
+}
+.button2a { 
+  color: #fdbb2d; 
+  /*border: 2px solid #fff;*/
+  border-radius: 8px;
+  padding: 2px 2px 0px 2px;
+}
+
+.button2a:hover {
+  background-color: #fdbb2d;
+  color: white;
+}
+.button2b { 
+  color: #fdbb2d; 
+  /*border: 2px solid #fff;*/
+  border-radius: 8px;
+  padding: 2px 2px 0px 2px;
+}
+
+.button2b:hover {
+  background-color: #fdbb2d;
+  color: white;
+}
+.box-1 {
+  position: relative;
+  z-index: 1;
+}
+.box-2 {
+  position: absolute;
+  z-index: 2;
+  top: 800px;
+  right: -330px;
+  opacity: 0.8;
+}
+.img-resume
+{
+  width: 50%;
+}
+.box01
+{
+  border-radius: 25px;
+  padding: 7px 20px;
+  background: rgba(57,57,57,1.00);
+}
+.box01:hover
+{
+  color: #fdbb2d;
+}
+.box02
+{
+  border-radius: 25px;
+  padding: 7px 20px;
+  background: rgba(57,57,57,1.00);
+}
+.box02:hover
+{
+  color: #fdbb2d;
+}
+.box03
+{
+  border-radius: 25px;
+  padding: 7px 20px;
+  background: rgba(57,57,57,1.00);
+}
+.box03:hover
+{
+  color: #fdbb2d;
+}
+.box04
+{
+  border-radius: 25px;
+  padding: 7px 20px;
+  background: rgba(57,57,57,1.00);
+}
+.box04:hover
+{
+  color: #fdbb2d;
+}
+.box05
+{
+  padding: 7px 20px;
+}
+.box05:hover
+{
+  color: #fdbb2d;
+}
+.circle
+{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(131,146,253,0.3);
+	border: 2px solid rgba(131,146,253,0.9);
+	position: absolute;
+	z-index: -1;
+	left: 1200px; top: 500px;
+	animation-name: didi;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	border-radius: 20%;
+	filter: blur(2px)
+}
+hr.new4 {
+  width: 100%;
+  border-top: 1px solid gray;
+}
+.new5 
+{
+  width: 100%;
+  border-top: 1px solid gray;
+}
+.new6 
+{
+  width: 100%;
+  border-top: 1px solid gray;
+  margin-bottom: -11px;
+}
+.img-g
+{
+       margin: 5px;
+}
+
+
+
+
+
+
+
+

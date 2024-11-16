@@ -258,7 +258,9 @@ hr.new4 {
 {
        margin: 5px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 
